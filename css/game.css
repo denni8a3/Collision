@@ -1,0 +1,17 @@
+.background    { background: rgb(162, 246, 250);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.slime          { background: rgb(160, 300, 110); }
+.wall          { background: black;   }
+.floater       { background: grey;}
+
+.actor  { position: absolute;  }
+.player { background: rgb(24, 204, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
